@@ -5,7 +5,7 @@ RokuBni Test
 </head>
 <body>
 <br>
-Playing with RokuAds API... 1.03
+Playing with RokuAds API... 1.04
 
 <h2>Use JavaScript to Change Text</h2>
 <p>This example writes "Hello JavaScript!" into an HTML element with id="demo":</p>
@@ -17,7 +17,6 @@ document.getElementById("demo").innerHTML = "Hello JavaScript!";
 </script> 
 
 <script>
-​
 //void fireMarketingPixel(DOMString type);
 //void fireTrackingEvent(DOMString type, DOMString url);
 //void enableAdMeasurements(boolean enable);
@@ -36,7 +35,7 @@ document.getElementById("demo").innerHTML = "Hello JavaScript!";
 function success(arg) {
   console.log("Success! arg: " + arg + " |");
 }
-​
+
 function failure(arg) {
   console.log("Failure! arg: " + arg + " |");
 }
@@ -47,30 +46,30 @@ success("success");
 failure("Failure");
 /*
 var ads = new RokuAds();
-​
+
 console.log("Enabling Nielsen DAR...");
 ads.enableNielsenDAR(true);
-​
+
 //console.log("Enabling Ad Meassurements...");
 //ads.enableAdMeasurements(true);
-​
+
 console.log("GetNielsenContentData...");
 ads.getNielsenContentData().then(success, failure);
-​
+
 console.log("Setting content...");
 ads.setContentGenre("Entertainment")
 ads.setContentId("CSASAdSample")
 ads.setContentLength(600)
-​
+
 console.log("GetNielsenContentData TWO...");
 ads.getNielsenContentData().then(success, failure);
-​
+
 console.log("Setting Nielsen content...");
 ads.setNielsenAppId("MySuperDuperID");
 ads.setNielsenGenre("Nielsentainment");  
 */
-​
+
 </script>
-​
+
 </body>
 </html>
