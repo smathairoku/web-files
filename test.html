@@ -5,7 +5,7 @@ RokuBni Test
 </head>
 <body>
 <br>
-Playing with RokuAds API... 1.02
+Playing with RokuAds API... 1.03
 
 <h2>Use JavaScript to Change Text</h2>
 <p>This example writes "Hello JavaScript!" into an HTML element with id="demo":</p>
@@ -32,7 +32,7 @@ document.getElementById("demo").innerHTML = "Hello JavaScript!";
 //void setNielsenAppId(DOMString app_id);
 //void setNielsenGenre(DOMString genre);
 
-/*
+
 function success(arg) {
   console.log("Success! arg: " + arg + " |");
 }
@@ -42,7 +42,10 @@ function failure(arg) {
 }
 
 console.log("Creating RokuAds");
-  ​
+document.getElementById("demo").innerHTML = "Creating RokuAds";
+success("success");
+failure("Failure");
+/*
 var ads = new RokuAds();
 ​
 console.log("Enabling Nielsen DAR...");
