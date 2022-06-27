@@ -5,7 +5,7 @@ RokuBni Test
 </head>
 <body>
 <br>
-Playing with RokuAds API... 1.06
+Playing with RokuAds API... 1.07
 
 <p id="RokuAds"></p>
 <p id="Nielsen"></p>
@@ -44,8 +44,10 @@ document.getElementById("Nielsen").innerHTML = "Enabling Nielsen DAR...";
 
 ads.enableNielsenDAR(true);
 
-//console.log("Enabling Ad Meassurements...");
-//ads.enableAdMeasurements(true);
+console.log("Enabling Ad Meassurements...");
+ads.enableAdMeasurements(true);
+ads.fireMarketingPixel("TestingMarketingPixel");
+ads.fireTrackingEvent("TestingTrackingEvent","https://www.cnn.com");
 
 console.log("GetNielsenContentData...");
 ads.getNielsenContentData().then(success, failure);
