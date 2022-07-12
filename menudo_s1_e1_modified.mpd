@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" type="static" mediaPresentationDuration="PT45M0.114083333S" minBufferTime="PT2S">
+  <Period id="0" duration="PT43M51.045083333S" start="PT0S">
+    <BaseURL>https://cmaf.cf.us.hbomaxcdn.com/videos/GYnv46AXZnMPDOQEAAAQ4/</BaseURL>
+    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="0" lang="en-US" contentType="audio">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0100b159-2b9f-6776-0da9-4fc1b44ec6c9" value="cenc"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAC2HBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAri4AgAAAQABAK4CPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBXAGIARQBBAEEAWgA4AHIAZABtAGMATgBxAFUALwBCAHQARQA3AEcAeQBRAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGUAaQB6AEkASwBmAGkARQA3AHMAbwA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBuAHkAdwBlAGIAbQBzAGQAcgBtADAAMQBkAC4AaABiAG8ALgBoAG8AbQBlAGIAbwB4AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQAtAGQAaQByAGUAYwB0AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAsVkrn2d2DalPwbROxskSEAEF48/c7fD8TDuaFWjf6OQSEAECc/+/1b2JVQUkxHxEzKASEAEB6VMTjXsE1Dx7UJo4PRtI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="386322" codecs="ac-3" id="a1">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="6"></AudioChannelConfiguration>
+        <BaseURL>a/9_f94b6e/a1.mp4</BaseURL>
+        <SegmentBase timescale="48000" indexRange="1494-9433">
+          <Initialization range="0-1493"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="1" lang="en-US" contentType="audio">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0100b159-2b9f-6776-0da9-4fc1b44ec6c9" value="cenc"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAC2HBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAri4AgAAAQABAK4CPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBXAGIARQBBAEEAWgA4AHIAZABtAGMATgBxAFUALwBCAHQARQA3AEcAeQBRAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGUAaQB6AEkASwBmAGkARQA3AHMAbwA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBuAHkAdwBlAGIAbQBzAGQAcgBtADAAMQBkAC4AaABiAG8ALgBoAG8AbQBlAGIAbwB4AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQAtAGQAaQByAGUAYwB0AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAsVkrn2d2DalPwbROxskSEAEF48/c7fD8TDuaFWjf6OQSEAECc/+/1b2JVQUkxHxEzKASEAEB6VMTjXsE1Dx7UJo4PRtI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="alternate"></Role>
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="386322" codecs="ac-3" id="a16">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
+        <BaseURL>a/9_f94b6e/a16.mp4</BaseURL>
+        <SegmentBase timescale="48000" indexRange="1494-9433">
+          <Initialization range="0-1493"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Accessibility schemeIdUri="urn:tva:metadata:cs:AudioPurposeCS:2007" value="1"></Accessibility>
+    </AdaptationSet>
+    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="2" lang="es-ES" contentType="audio">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0100b159-2b9f-6776-0da9-4fc1b44ec6c9" value="cenc"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAC2HBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAri4AgAAAQABAK4CPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBXAGIARQBBAEEAWgA4AHIAZABtAGMATgBxAFUALwBCAHQARQA3AEcAeQBRAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGUAaQB6AEkASwBmAGkARQA3AHMAbwA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBuAHkAdwBlAGIAbQBzAGQAcgBtADAAMQBkAC4AaABiAG8ALgBoAG8AbQBlAGIAbwB4AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQAtAGQAaQByAGUAYwB0AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAsVkrn2d2DalPwbROxskSEAEF48/c7fD8TDuaFWjf6OQSEAECc/+/1b2JVQUkxHxEzKASEAEB6VMTjXsE1Dx7UJo4PRtI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="386322" codecs="ac-3" id="a3">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="6"></AudioChannelConfiguration>
+        <BaseURL>a/9_f94b6e/a3.mp4</BaseURL>
+        <SegmentBase timescale="48000" indexRange="1494-9433">
+          <Initialization range="0-1493"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="3" lang="pl-PL" contentType="audio">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0100b159-2b9f-6776-0da9-4fc1b44ec6c9" value="cenc"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAC2HBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAri4AgAAAQABAK4CPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBXAGIARQBBAEEAWgA4AHIAZABtAGMATgBxAFUALwBCAHQARQA3AEcAeQBRAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGUAaQB6AEkASwBmAGkARQA3AHMAbwA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBuAHkAdwBlAGIAbQBzAGQAcgBtADAAMQBkAC4AaABiAG8ALgBoAG8AbQBlAGIAbwB4AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQAtAGQAaQByAGUAYwB0AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAsVkrn2d2DalPwbROxskSEAEF48/c7fD8TDuaFWjf6OQSEAECc/+/1b2JVQUkxHxEzKASEAEB6VMTjXsE1Dx7UJo4PRtI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="386322" codecs="ac-3" id="a19">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="6"></AudioChannelConfiguration>
+        <BaseURL>a/9_f94b6e/a19.mp4</BaseURL>
+        <SegmentBase timescale="48000" indexRange="1494-9433">
+          <Initialization range="0-1493"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="4" lang="tr-TR" contentType="audio">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0100b159-2b9f-6776-0da9-4fc1b44ec6c9" value="cenc"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAC2HBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAri4AgAAAQABAK4CPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBXAGIARQBBAEEAWgA4AHIAZABtAGMATgBxAFUALwBCAHQARQA3AEcAeQBRAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGUAaQB6AEkASwBmAGkARQA3AHMAbwA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBuAHkAdwBlAGIAbQBzAGQAcgBtADAAMQBkAC4AaABiAG8ALgBoAG8AbQBlAGIAbwB4AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQAtAGQAaQByAGUAYwB0AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAsVkrn2d2DalPwbROxskSEAEF48/c7fD8TDuaFWjf6OQSEAECc/+/1b2JVQUkxHxEzKASEAEB6VMTjXsE1Dx7UJo4PRtI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="386322" codecs="ac-3" id="a11">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="6"></AudioChannelConfiguration>
+        <BaseURL>a/9_f94b6e/a11.mp4</BaseURL>
+        <SegmentBase timescale="48000" indexRange="1494-9433">
+          <Initialization range="0-1493"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="5" lang="en-US" contentType="audio">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0100b159-2b9f-6776-0da9-4fc1b44ec6c9" value="cenc"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAC2HBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAri4AgAAAQABAK4CPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBXAGIARQBBAEEAWgA4AHIAZABtAGMATgBxAFUALwBCAHQARQA3AEcAeQBRAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGUAaQB6AEkASwBmAGkARQA3AHMAbwA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBuAHkAdwBlAGIAbQBzAGQAcgBtADAAMQBkAC4AaABiAG8ALgBoAG8AbQBlAGIAbwB4AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQAtAGQAaQByAGUAYwB0AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAsVkrn2d2DalPwbROxskSEAEF48/c7fD8TDuaFWjf6OQSEAECc/+/1b2JVQUkxHxEzKASEAEB6VMTjXsE1Dx7UJo4PRtI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="258322" codecs="ec-3" id="a0">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="6"></AudioChannelConfiguration>
+        <BaseURL>a/9_f94b6e/a0.mp4</BaseURL>
+        <SegmentBase timescale="48000" indexRange="1496-9435">
+          <Initialization range="0-1495"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="6" lang="en-US" contentType="audio">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0100b159-2b9f-6776-0da9-4fc1b44ec6c9" value="cenc"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAC2HBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAri4AgAAAQABAK4CPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBXAGIARQBBAEEAWgA4AHIAZABtAGMATgBxAFUALwBCAHQARQA3AEcAeQBRAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGUAaQB6AEkASwBmAGkARQA3AHMAbwA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBuAHkAdwBlAGIAbQBzAGQAcgBtADAAMQBkAC4AaABiAG8ALgBoAG8AbQBlAGIAbwB4AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQAtAGQAaQByAGUAYwB0AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAsVkrn2d2DalPwbROxskSEAEF48/c7fD8TDuaFWjf6OQSEAECc/+/1b2JVQUkxHxEzKASEAEB6VMTjXsE1Dx7UJo4PRtI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="alternate"></Role>
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="258322" codecs="ec-3" id="a14">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="2"></AudioChannelConfiguration>
+        <BaseURL>a/9_f94b6e/a14.mp4</BaseURL>
+        <SegmentBase timescale="48000" indexRange="1496-9435">
+          <Initialization range="0-1495"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Accessibility schemeIdUri="urn:tva:metadata:cs:AudioPurposeCS:2007" value="1"></Accessibility>
+    </AdaptationSet>
+    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="7" lang="es-ES" contentType="audio">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0100b159-2b9f-6776-0da9-4fc1b44ec6c9" value="cenc"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAC2HBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAri4AgAAAQABAK4CPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBXAGIARQBBAEEAWgA4AHIAZABtAGMATgBxAFUALwBCAHQARQA3AEcAeQBRAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGUAaQB6AEkASwBmAGkARQA3AHMAbwA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBuAHkAdwBlAGIAbQBzAGQAcgBtADAAMQBkAC4AaABiAG8ALgBoAG8AbQBlAGIAbwB4AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQAtAGQAaQByAGUAYwB0AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAsVkrn2d2DalPwbROxskSEAEF48/c7fD8TDuaFWjf6OQSEAECc/+/1b2JVQUkxHxEzKASEAEB6VMTjXsE1Dx7UJo4PRtI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="258322" codecs="ec-3" id="a2">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="6"></AudioChannelConfiguration>
+        <BaseURL>a/9_f94b6e/a2.mp4</BaseURL>
+        <SegmentBase timescale="48000" indexRange="1496-9435">
+          <Initialization range="0-1495"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="8" lang="pl-PL" contentType="audio">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0100b159-2b9f-6776-0da9-4fc1b44ec6c9" value="cenc"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAC2HBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAri4AgAAAQABAK4CPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBXAGIARQBBAEEAWgA4AHIAZABtAGMATgBxAFUALwBCAHQARQA3AEcAeQBRAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGUAaQB6AEkASwBmAGkARQA3AHMAbwA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBuAHkAdwBlAGIAbQBzAGQAcgBtADAAMQBkAC4AaABiAG8ALgBoAG8AbQBlAGIAbwB4AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQAtAGQAaQByAGUAYwB0AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAsVkrn2d2DalPwbROxskSEAEF48/c7fD8TDuaFWjf6OQSEAECc/+/1b2JVQUkxHxEzKASEAEB6VMTjXsE1Dx7UJo4PRtI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="258322" codecs="ec-3" id="a18">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="6"></AudioChannelConfiguration>
+        <BaseURL>a/9_f94b6e/a18.mp4</BaseURL>
+        <SegmentBase timescale="48000" indexRange="1496-9435">
+          <Initialization range="0-1495"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="9" lang="tr-TR" contentType="audio">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0100b159-2b9f-6776-0da9-4fc1b44ec6c9" value="cenc"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAC2HBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAri4AgAAAQABAK4CPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBXAGIARQBBAEEAWgA4AHIAZABtAGMATgBxAFUALwBCAHQARQA3AEcAeQBRAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGUAaQB6AEkASwBmAGkARQA3AHMAbwA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBuAHkAdwBlAGIAbQBzAGQAcgBtADAAMQBkAC4AaABiAG8ALgBoAG8AbQBlAGIAbwB4AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQAtAGQAaQByAGUAYwB0AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAsVkrn2d2DalPwbROxskSEAEF48/c7fD8TDuaFWjf6OQSEAECc/+/1b2JVQUkxHxEzKASEAEB6VMTjXsE1Dx7UJo4PRtI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="258322" codecs="ec-3" id="a10">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="6"></AudioChannelConfiguration>
+        <BaseURL>a/9_f94b6e/a10.mp4</BaseURL>
+        <SegmentBase timescale="48000" indexRange="1496-9435">
+          <Initialization range="0-1495"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet subsegmentStartsWithSAP="1" id="10" lang="en-US" contentType="audio">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0100b159-2b9f-6776-0da9-4fc1b44ec6c9" value="cenc"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAC2HBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAri4AgAAAQABAK4CPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBXAGIARQBBAEEAWgA4AHIAZABtAGMATgBxAFUALwBCAHQARQA3AEcAeQBRAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGUAaQB6AEkASwBmAGkARQA3AHMAbwA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBuAHkAdwBlAGIAbQBzAGQAcgBtADAAMQBkAC4AaABiAG8ALgBoAG8AbQBlAGIAbwB4AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQAtAGQAaQByAGUAYwB0AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAsVkrn2d2DalPwbROxskSEAEF48/c7fD8TDuaFWjf6OQSEAECc/+/1b2JVQUkxHxEzKASEAEB6VMTjXsE1Dx7UJo4PRtI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <Representation mimeType="audio/mp4" audioSamplingRate="44100" bandwidth="68948" codecs="mp4a.40.5" id="a7">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
+        <BaseURL>a/9_f94b6e/a7.mp4</BaseURL>
+        <SegmentBase timescale="44100" indexRange="1587-9526">
+          <Initialization range="0-1586"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="135036" codecs="mp4a.40.2" id="a6">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
+        <BaseURL>a/9_f94b6e/a6.mp4</BaseURL>
+        <SegmentBase timescale="48000" indexRange="1584-9523">
+          <Initialization range="0-1583"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet subsegmentStartsWithSAP="1" id="11" lang="en-US" contentType="audio">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0100b159-2b9f-6776-0da9-4fc1b44ec6c9" value="cenc"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAC2HBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAri4AgAAAQABAK4CPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBXAGIARQBBAEEAWgA4AHIAZABtAGMATgBxAFUALwBCAHQARQA3AEcAeQBRAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGUAaQB6AEkASwBmAGkARQA3AHMAbwA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBuAHkAdwBlAGIAbQBzAGQAcgBtADAAMQBkAC4AaABiAG8ALgBoAG8AbQBlAGIAbwB4AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQAtAGQAaQByAGUAYwB0AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAsVkrn2d2DalPwbROxskSEAEF48/c7fD8TDuaFWjf6OQSEAECc/+/1b2JVQUkxHxEzKASEAEB6VMTjXsE1Dx7UJo4PRtI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="alternate"></Role>
+      <Representation mimeType="audio/mp4" audioSamplingRate="44100" bandwidth="69147" codecs="mp4a.40.5" id="a17">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
+        <BaseURL>a/9_f94b6e/a17.mp4</BaseURL>
+        <SegmentBase timescale="44100" indexRange="1587-9526">
+          <Initialization range="0-1586"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="135116" codecs="mp4a.40.2" id="a15">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
+        <BaseURL>a/9_f94b6e/a15.mp4</BaseURL>
+        <SegmentBase timescale="48000" indexRange="1584-9523">
+          <Initialization range="0-1583"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Accessibility schemeIdUri="urn:tva:metadata:cs:AudioPurposeCS:2007" value="1"></Accessibility>
+    </AdaptationSet>
+    <AdaptationSet subsegmentStartsWithSAP="1" id="12" lang="es-ES" contentType="audio">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0100b159-2b9f-6776-0da9-4fc1b44ec6c9" value="cenc"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAC2HBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAri4AgAAAQABAK4CPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBXAGIARQBBAEEAWgA4AHIAZABtAGMATgBxAFUALwBCAHQARQA3AEcAeQBRAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGUAaQB6AEkASwBmAGkARQA3AHMAbwA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBuAHkAdwBlAGIAbQBzAGQAcgBtADAAMQBkAC4AaABiAG8ALgBoAG8AbQBlAGIAbwB4AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQAtAGQAaQByAGUAYwB0AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAsVkrn2d2DalPwbROxskSEAEF48/c7fD8TDuaFWjf6OQSEAECc/+/1b2JVQUkxHxEzKASEAEB6VMTjXsE1Dx7UJo4PRtI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <Representation mimeType="audio/mp4" audioSamplingRate="44100" bandwidth="68952" codecs="mp4a.40.5" id="a9">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
+        <BaseURL>a/9_f94b6e/a9.mp4</BaseURL>
+        <SegmentBase timescale="44100" indexRange="1587-9526">
+          <Initialization range="0-1586"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="135000" codecs="mp4a.40.2" id="a8">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
+        <BaseURL>a/9_f94b6e/a8.mp4</BaseURL>
+        <SegmentBase timescale="48000" indexRange="1584-9523">
+          <Initialization range="0-1583"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet subsegmentStartsWithSAP="1" id="13" lang="pl-PL" contentType="audio">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0100b159-2b9f-6776-0da9-4fc1b44ec6c9" value="cenc"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAC2HBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAri4AgAAAQABAK4CPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBXAGIARQBBAEEAWgA4AHIAZABtAGMATgBxAFUALwBCAHQARQA3AEcAeQBRAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGUAaQB6AEkASwBmAGkARQA3AHMAbwA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBuAHkAdwBlAGIAbQBzAGQAcgBtADAAMQBkAC4AaABiAG8ALgBoAG8AbQBlAGIAbwB4AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQAtAGQAaQByAGUAYwB0AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAsVkrn2d2DalPwbROxskSEAEF48/c7fD8TDuaFWjf6OQSEAECc/+/1b2JVQUkxHxEzKASEAEB6VMTjXsE1Dx7UJo4PRtI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <Representation mimeType="audio/mp4" audioSamplingRate="44100" bandwidth="68916" codecs="mp4a.40.5" id="a5">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
+        <BaseURL>a/9_f94b6e/a5.mp4</BaseURL>
+        <SegmentBase timescale="44100" indexRange="1587-9526">
+          <Initialization range="0-1586"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="135002" codecs="mp4a.40.2" id="a4">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
+        <BaseURL>a/9_f94b6e/a4.mp4</BaseURL>
+        <SegmentBase timescale="48000" indexRange="1584-9523">
+          <Initialization range="0-1583"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet subsegmentStartsWithSAP="1" id="14" lang="tr-TR" contentType="audio">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0100b159-2b9f-6776-0da9-4fc1b44ec6c9" value="cenc"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAC2HBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAri4AgAAAQABAK4CPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBXAGIARQBBAEEAWgA4AHIAZABtAGMATgBxAFUALwBCAHQARQA3AEcAeQBRAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGUAaQB6AEkASwBmAGkARQA3AHMAbwA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBuAHkAdwBlAGIAbQBzAGQAcgBtADAAMQBkAC4AaABiAG8ALgBoAG8AbQBlAGIAbwB4AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQAtAGQAaQByAGUAYwB0AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAsVkrn2d2DalPwbROxskSEAEF48/c7fD8TDuaFWjf6OQSEAECc/+/1b2JVQUkxHxEzKASEAEB6VMTjXsE1Dx7UJo4PRtI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <Representation mimeType="audio/mp4" audioSamplingRate="44100" bandwidth="68911" codecs="mp4a.40.5" id="a13">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
+        <BaseURL>a/9_f94b6e/a13.mp4</BaseURL>
+        <SegmentBase timescale="44100" indexRange="1587-9526">
+          <Initialization range="0-1586"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="134977" codecs="mp4a.40.2" id="a12">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
+        <BaseURL>a/9_f94b6e/a12.mp4</BaseURL>
+        <SegmentBase timescale="48000" indexRange="1584-9523">
+          <Initialization range="0-1583"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet frameRate="24000/1001" subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="15" par="16:9" maxWidth="960" maxHeight="540" contentType="video">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0101e953-138d-7b04-d43c-7b509a383d1b" value="cenc"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAC2HBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAri4AgAAAQABAK4CPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBVACsAawBCAEEAWQAwAFQAQgBIAHYAVQBQAEgAdABRAG0AagBnADkARwB3AD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGcAUABJAHEAWQB2AFMANQBTAFoAQQA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBuAHkAdwBlAGIAbQBzAGQAcgBtADAAMQBkAC4AaABiAG8ALgBoAG8AbQBlAGIAbwB4AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQAtAGQAaQByAGUAYwB0AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAsVkrn2d2DalPwbROxskSEAEF48/c7fD8TDuaFWjf6OQSEAECc/+/1b2JVQUkxHxEzKASEAEB6VMTjXsE1Dx7UJo4PRtI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="16,17"></SupplementalProperty>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="316992" codecs="avc1.4d400d" height="234" id="v9" width="416">
+        <BaseURL>v/9_b86daa/v9.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="1638-9565">
+          <Initialization range="0-1637"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="632710" codecs="avc1.4d400d" height="234" id="v10" width="416">
+        <BaseURL>v/9_b86daa/v10.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="1638-9565">
+          <Initialization range="0-1637"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="1275591" codecs="avc1.4d401e" height="360" id="v11" width="640">
+        <BaseURL>v/9_b86daa/v11.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="1639-9566">
+          <Initialization range="0-1638"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="1941695" codecs="avc1.4d401e" height="432" id="v12" width="768">
+        <BaseURL>v/9_b86daa/v12.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="1638-9565">
+          <Initialization range="0-1637"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="3778994" codecs="avc1.4d401f" height="540" id="v13" width="960">
+        <BaseURL>v/9_b86daa/v13.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="1640-9567">
+          <Initialization range="0-1639"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet frameRate="24000/1001" subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="16" par="16:9" maxWidth="1280" maxHeight="720" contentType="video">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="010273ff-bfd5-bd89-5505-24c47c44cca0" value="cenc"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAC2HBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAri4AgAAAQABAK4CPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgAvADMATQBDAEEAZABXAC8AaQBiADEAVgBCAFMAVABFAGYARQBUAE0AbwBBAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AG0ATgBZAEMAZABCAE0ATQBpADUAMAA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBuAHkAdwBlAGIAbQBzAGQAcgBtADAAMQBkAC4AaABiAG8ALgBoAG8AbQBlAGIAbwB4AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQAtAGQAaQByAGUAYwB0AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAsVkrn2d2DalPwbROxskSEAEF48/c7fD8TDuaFWjf6OQSEAECc/+/1b2JVQUkxHxEzKASEAEB6VMTjXsE1Dx7UJo4PRtI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="15,17"></SupplementalProperty>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="4003703" codecs="avc1.4d401f" height="720" id="v14" width="1280">
+        <BaseURL>v/9_b86daa/v14.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="1639-9566">
+          <Initialization range="0-1638"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="5425281" codecs="avc1.4d401f" height="720" id="v15" width="1280">
+        <BaseURL>v/9_b86daa/v15.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="1640-9567">
+          <Initialization range="0-1639"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet frameRate="24000/1001" subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="17" par="16:9" maxWidth="1920" maxHeight="1080" contentType="video">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0105e3cf-dced-f0fc-4c3b-9a1568dfe8e4" value="cenc"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAC2HBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAri4AgAAAQABAK4CPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgB6ACsATQBGAEEAZQAzAGMALwBQAEIATQBPADUAbwBWAGEATgAvAG8ANQBBAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AFMARgBrAGsAVAB4AFgAbgBKAFMAOAA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBuAHkAdwBlAGIAbQBzAGQAcgBtADAAMQBkAC4AaABiAG8ALgBoAG8AbQBlAGIAbwB4AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQAtAGQAaQByAGUAYwB0AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAsVkrn2d2DalPwbROxskSEAEF48/c7fD8TDuaFWjf6OQSEAECc/+/1b2JVQUkxHxEzKASEAEB6VMTjXsE1Dx7UJo4PRtI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="15,16"></SupplementalProperty>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="8631487" codecs="avc1.640028" height="1080" id="v16" width="1920">
+        <BaseURL>v/9_b86daa/v16.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="1644-9571">
+          <Initialization range="0-1643"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="12757429" codecs="avc1.640028" height="1080" id="v17" width="1920">
+        <BaseURL>v/9_b86daa/v17.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="1645-9572">
+          <Initialization range="0-1644"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet frameRate="24000/1001" subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="18" par="16:9" maxWidth="1920" maxHeight="1080" contentType="video">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0105e3cf-dced-f0fc-4c3b-9a1568dfe8e4" value="cenc"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAC2HBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAri4AgAAAQABAK4CPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgB6ACsATQBGAEEAZQAzAGMALwBQAEIATQBPADUAbwBWAGEATgAvAG8ANQBBAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AFMARgBrAGsAVAB4AFgAbgBKAFMAOAA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBuAHkAdwBlAGIAbQBzAGQAcgBtADAAMQBkAC4AaABiAG8ALgBoAG8AbQBlAGIAbwB4AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQAtAGQAaQByAGUAYwB0AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAsVkrn2d2DalPwbROxskSEAEF48/c7fD8TDuaFWjf6OQSEAECc/+/1b2JVQUkxHxEzKASEAEB6VMTjXsE1Dx7UJo4PRtI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="19,20"></SupplementalProperty>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="6722172" codecs="hvc1.1.6.L120.90" height="1080" id="v7" width="1920">
+        <BaseURL>v/9_b86daa/v7.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="3756-11683">
+          <Initialization range="0-3755"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="9444794" codecs="hvc1.1.6.L120.90" height="1080" id="v8" width="1920">
+        <BaseURL>v/9_b86daa/v8.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="3756-11683">
+          <Initialization range="0-3755"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet frameRate="24000/1001" subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="19" par="16:9" maxWidth="960" maxHeight="540" contentType="video">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0101e953-138d-7b04-d43c-7b509a383d1b" value="cenc"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAC2HBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAri4AgAAAQABAK4CPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBVACsAawBCAEEAWQAwAFQAQgBIAHYAVQBQAEgAdABRAG0AagBnADkARwB3AD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AGcAUABJAHEAWQB2AFMANQBTAFoAQQA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBuAHkAdwBlAGIAbQBzAGQAcgBtADAAMQBkAC4AaABiAG8ALgBoAG8AbQBlAGIAbwB4AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQAtAGQAaQByAGUAYwB0AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAsVkrn2d2DalPwbROxskSEAEF48/c7fD8TDuaFWjf6OQSEAECc/+/1b2JVQUkxHxEzKASEAEB6VMTjXsE1Dx7UJo4PRtI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="18,20"></SupplementalProperty>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="268602" codecs="hvc1.1.6.L60.90" height="234" id="v0" width="416">
+        <BaseURL>v/9_b86daa/v0.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="3750-11677">
+          <Initialization range="0-3749"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="523165" codecs="hvc1.1.6.L60.90" height="234" id="v1" width="416">
+        <BaseURL>v/9_b86daa/v1.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="3750-11677">
+          <Initialization range="0-3749"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="1043171" codecs="hvc1.1.6.L63.90" height="360" id="v2" width="640">
+        <BaseURL>v/9_b86daa/v2.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="3749-11676">
+          <Initialization range="0-3748"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="1468862" codecs="hvc1.1.6.L90.90" height="432" id="v3" width="768">
+        <BaseURL>v/9_b86daa/v3.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="3751-11678">
+          <Initialization range="0-3750"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="2211281" codecs="hvc1.1.6.L90.90" height="540" id="v4" width="960">
+        <BaseURL>v/9_b86daa/v4.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="3753-11680">
+          <Initialization range="0-3752"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet frameRate="24000/1001" subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="20" par="16:9" maxWidth="1280" maxHeight="720" contentType="video">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="010273ff-bfd5-bd89-5505-24c47c44cca0" value="cenc"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <cenc:pssh>AAAC2HBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAri4AgAAAQABAK4CPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgAvADMATQBDAEEAZABXAC8AaQBiADEAVgBCAFMAVABFAGYARQBUAE0AbwBBAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AG0ATgBZAEMAZABCAE0ATQBpADUAMAA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBuAHkAdwBlAGIAbQBzAGQAcgBtADAAMQBkAC4AaABiAG8ALgBoAG8AbQBlAGIAbwB4AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQAtAGQAaQByAGUAYwB0AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAsVkrn2d2DalPwbROxskSEAEF48/c7fD8TDuaFWjf6OQSEAECc/+/1b2JVQUkxHxEzKASEAEB6VMTjXsE1Dx7UJo4PRtI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="18,19"></SupplementalProperty>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="3047735" codecs="hvc1.1.6.L93.90" height="720" id="v5" width="1280">
+        <BaseURL>v/9_b86daa/v5.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="3754-11681">
+          <Initialization range="0-3753"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="3972578" codecs="hvc1.1.6.L93.90" height="720" id="v6" width="1280">
+        <BaseURL>v/9_b86daa/v6.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="3754-11681">
+          <Initialization range="0-3753"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="21" maxWidth="640" maxHeight="360" contentType="image">
+      <SegmentTemplate duration="1" media="i/9_4f2af4/$RepresentationID$_$Number%08d$.jpg" startNumber="0"></SegmentTemplate>
+      <Representation mimeType="image/jpeg" bandwidth="30619" height="180" id="images_1" width="320">
+        <EssentialProperty schemeIdUri="http://dashif.org/guidelines/thumbnail_tile" value="1x1"></EssentialProperty>
+      </Representation>
+      <Representation mimeType="image/jpeg" bandwidth="126029" height="360" id="images_2" width="640">
+        <EssentialProperty schemeIdUri="http://dashif.org/guidelines/thumbnail_tile" value="1x1"></EssentialProperty>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="22" segmentAlignment="true" lang="no-NO" contentType="text">
+      <Label>no-NO</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="26" id="t0">
+        <SegmentTemplate media="t/10_21acd5/t0/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="23" segmentAlignment="true" lang="tr-TR" contentType="text">
+      <Label>tr-TR</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="26" id="t2">
+        <SegmentTemplate media="t/10_21acd5/t2/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="25" segmentAlignment="true" lang="el-GR" contentType="text">
+      <Label>el-GR</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="38" id="t6">
+        <SegmentTemplate media="t/10_21acd5/t6/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="27" segmentAlignment="true" lang="en-US" contentType="text">
+      <Label>en-US</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="25" id="t10">
+        <SegmentTemplate media="t/10_21acd5/t10/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="28" segmentAlignment="true" lang="ro-RO" contentType="text">
+      <Label>ro-RO</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="28" id="t12">
+        <SegmentTemplate media="t/10_21acd5/t12/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="29" segmentAlignment="true" lang="hu-HU" contentType="text">
+      <Label>hu-HU</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="27" id="t14">
+        <SegmentTemplate media="t/10_21acd5/t14/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="30" segmentAlignment="true" lang="sv-SE" contentType="text">
+      <Label>sv-SE</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="26" id="t16">
+        <SegmentTemplate media="t/10_21acd5/t16/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="31" segmentAlignment="true" lang="nl-NL" contentType="text">
+      <Label>nl-NL</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="26" id="t18">
+        <SegmentTemplate media="t/10_21acd5/t18/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="32" segmentAlignment="true" lang="lt-LT" contentType="text">
+      <Label>lt-LT</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="29" id="t20">
+        <SegmentTemplate media="t/10_21acd5/t20/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="33" segmentAlignment="true" lang="et-EE" contentType="text">
+      <Label>et-EE</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="26" id="t22">
+        <SegmentTemplate media="t/10_21acd5/t22/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="34" segmentAlignment="true" lang="cs-CZ" contentType="text">
+      <Label>cs-CZ</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="26" id="t24">
+        <SegmentTemplate media="t/10_21acd5/t24/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="35" segmentAlignment="true" lang="fi-FI" contentType="text">
+      <Label>fi-FI</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="26" id="t26">
+        <SegmentTemplate media="t/10_21acd5/t26/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="36" segmentAlignment="true" lang="pt-BR" contentType="text">
+      <Label>pt-BR</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="26" id="t28">
+        <SegmentTemplate media="t/10_21acd5/t28/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="37" segmentAlignment="true" lang="en-US" contentType="text">
+      <Label>en-US SDH</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="caption"></Role>
+      <Representation mimeType="text/vtt" bandwidth="30" id="t30">
+        <SegmentTemplate media="t/10_21acd5/t30/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="38" segmentAlignment="true" lang="es-ES" contentType="text">
+      <Label>es-ES</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="4" id="t32">
+        <SegmentTemplate media="t/10_21acd5/t32/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="39" segmentAlignment="true" lang="mk-MK" contentType="text">
+      <Label>mk-MK</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="36" id="t34">
+        <SegmentTemplate media="t/10_21acd5/t34/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="40" segmentAlignment="true" lang="pt-PT" contentType="text">
+      <Label>pt-PT</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="29" id="t36">
+        <SegmentTemplate media="t/10_21acd5/t36/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="41" segmentAlignment="true" lang="is-IS" contentType="text">
+      <Label>is-IS</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="27" id="t38">
+        <SegmentTemplate media="t/10_21acd5/t38/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="42" segmentAlignment="true" lang="es-419" contentType="text">
+      <Label>es-419</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="5" id="t40">
+        <SegmentTemplate media="t/10_21acd5/t40/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="43" segmentAlignment="true" lang="bg-BG" contentType="text">
+      <Label>bg-BG</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="36" id="t42">
+        <SegmentTemplate media="t/10_21acd5/t42/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="44" segmentAlignment="true" lang="en-US" contentType="text">
+      <Label>en-US Forced</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="forced-subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="23" id="t44">
+        <SegmentTemplate media="t/10_21acd5/t44/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="45" segmentAlignment="true" lang="lv-LV" contentType="text">
+      <Label>lv-LV</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="29" id="t46">
+        <SegmentTemplate media="t/10_21acd5/t46/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="46" segmentAlignment="true" lang="sl-SI" contentType="text">
+      <Label>sl-SI</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="27" id="t48">
+        <SegmentTemplate media="t/10_21acd5/t48/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="47" segmentAlignment="true" lang="sr-Latn-RS" contentType="text">
+      <Label>sr-Latn-RS</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="25" id="t50">
+        <SegmentTemplate media="t/10_21acd5/t50/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="48" segmentAlignment="true" lang="pl-PL" contentType="text">
+      <Label>pl-PL</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="26" id="t52">
+        <SegmentTemplate media="t/10_21acd5/t52/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="49" segmentAlignment="true" lang="es-ES" contentType="text">
+      <Label>es-ES Forced</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="forced-subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="3" id="t54">
+        <SegmentTemplate media="t/10_21acd5/t54/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="50" segmentAlignment="true" lang="hr-HR" contentType="text">
+      <Label>hr-HR</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="26" id="t56">
+        <SegmentTemplate media="t/10_21acd5/t56/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="51" segmentAlignment="true" lang="da-DK" contentType="text">
+      <Label>da-DK</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="26" id="t58">
+        <SegmentTemplate media="t/10_21acd5/t58/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="728436"></S>
+            <S t="728436" d="711794"></S>
+            <S t="1440230" d="627918"></S>
+            <S t="2068149" d="562895"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period id="1" duration="PT1M9.069S" start="PT43M51.045083333S">
+    <BaseURL>https://cmaf.cf.us.hbomaxcdn.com/videos/GYrCcZQ8Z_ACdrAEAAAGh/</BaseURL>
+    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="0" lang="en-US" contentType="audio">
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="384216" codecs="ac-3" id="a2">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
+        <BaseURL>a/0_780386/a2.mp4</BaseURL>
+        <SegmentBase timescale="48000" indexRange="576-823">
+          <Initialization range="0-575"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="1" lang="en-US" contentType="audio">
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="256216" codecs="ec-3" id="a0">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="2"></AudioChannelConfiguration>
+        <BaseURL>a/0_780386/a0.mp4</BaseURL>
+        <SegmentBase timescale="48000" indexRange="578-825">
+          <Initialization range="0-577"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet subsegmentStartsWithSAP="1" id="2" lang="en-US" contentType="audio">
+      <Representation mimeType="audio/mp4" audioSamplingRate="44100" bandwidth="67764" codecs="mp4a.40.5" id="a3">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
+        <BaseURL>a/0_780386/a3.mp4</BaseURL>
+        <SegmentBase timescale="44100" indexRange="669-916">
+          <Initialization range="0-668"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="131969" codecs="mp4a.40.2" id="a1">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
+        <BaseURL>a/0_780386/a1.mp4</BaseURL>
+        <SegmentBase timescale="48000" indexRange="666-913">
+          <Initialization range="0-665"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet frameRate="24000/1001" subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="3" par="16:9" maxWidth="1920" maxHeight="1080" contentType="video">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="259657" codecs="avc1.4d400d" height="234" id="v9" width="416">
+        <BaseURL>v/0_88aacb/v9.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="720-967">
+          <Initialization range="0-719"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="522254" codecs="avc1.4d400d" height="234" id="v10" width="416">
+        <BaseURL>v/0_88aacb/v10.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="720-967">
+          <Initialization range="0-719"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="1042490" codecs="avc1.4d401e" height="360" id="v11" width="640">
+        <BaseURL>v/0_88aacb/v11.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="721-968">
+          <Initialization range="0-720"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="1570240" codecs="avc1.4d401e" height="432" id="v12" width="768">
+        <BaseURL>v/0_88aacb/v12.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="720-967">
+          <Initialization range="0-719"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="2575371" codecs="avc1.4d401f" height="540" id="v13" width="960">
+        <BaseURL>v/0_88aacb/v13.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="722-969">
+          <Initialization range="0-721"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="3215749" codecs="avc1.4d401f" height="720" id="v14" width="1280">
+        <BaseURL>v/0_88aacb/v14.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="721-968">
+          <Initialization range="0-720"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="4588718" codecs="avc1.4d401f" height="720" id="v15" width="1280">
+        <BaseURL>v/0_88aacb/v15.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="722-969">
+          <Initialization range="0-721"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="6744676" codecs="avc1.640028" height="1080" id="v16" width="1920">
+        <BaseURL>v/0_88aacb/v16.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="726-973">
+          <Initialization range="0-725"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="10240162" codecs="avc1.640028" height="1080" id="v17" width="1920">
+        <BaseURL>v/0_88aacb/v17.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="727-974">
+          <Initialization range="0-726"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet frameRate="24000/1001" subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="4" par="16:9" maxWidth="1920" maxHeight="1080" contentType="video">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="222944" codecs="hvc1.1.6.L60.90" height="234" id="v0" width="416">
+        <BaseURL>v/0_88aacb/v0.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="2832-3079">
+          <Initialization range="0-2831"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="425465" codecs="hvc1.1.6.L60.90" height="234" id="v1" width="416">
+        <BaseURL>v/0_88aacb/v1.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="2832-3079">
+          <Initialization range="0-2831"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="886830" codecs="hvc1.1.6.L63.90" height="360" id="v2" width="640">
+        <BaseURL>v/0_88aacb/v2.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="2831-3078">
+          <Initialization range="0-2830"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="1286988" codecs="hvc1.1.6.L90.90" height="432" id="v3" width="768">
+        <BaseURL>v/0_88aacb/v3.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="2833-3080">
+          <Initialization range="0-2832"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="1966404" codecs="hvc1.1.6.L90.90" height="540" id="v4" width="960">
+        <BaseURL>v/0_88aacb/v4.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="2835-3082">
+          <Initialization range="0-2834"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="2733733" codecs="hvc1.1.6.L93.90" height="720" id="v5" width="1280">
+        <BaseURL>v/0_88aacb/v5.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="2836-3083">
+          <Initialization range="0-2835"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="3572698" codecs="hvc1.1.6.L93.90" height="720" id="v6" width="1280">
+        <BaseURL>v/0_88aacb/v6.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="2836-3083">
+          <Initialization range="0-2835"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="5459197" codecs="hvc1.1.6.L120.90" height="1080" id="v7" width="1920">
+        <BaseURL>v/0_88aacb/v7.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="2838-3085">
+          <Initialization range="0-2837"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="7915819" codecs="hvc1.1.6.L120.90" height="1080" id="v8" width="1920">
+        <BaseURL>v/0_88aacb/v8.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="2838-3085">
+          <Initialization range="0-2837"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="5" maxWidth="640" maxHeight="360" contentType="image">
+      <SegmentTemplate duration="1" media="i/0_57b33d/$RepresentationID$_$Number%08d$.jpg" startNumber="0"></SegmentTemplate>
+      <Representation mimeType="image/jpeg" bandwidth="20351" height="180" id="images_1" width="320">
+        <EssentialProperty schemeIdUri="http://dashif.org/guidelines/thumbnail_tile" value="1x1"></EssentialProperty>
+      </Representation>
+      <Representation mimeType="image/jpeg" bandwidth="54874" height="360" id="images_2" width="640">
+        <EssentialProperty schemeIdUri="http://dashif.org/guidelines/thumbnail_tile" value="1x1"></EssentialProperty>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="6" segmentAlignment="true" lang="en-US" contentType="text">
+      <Label>en-US SDH</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="caption"></Role>
+      <Representation mimeType="text/vtt" bandwidth="31" id="t0">
+        <SegmentTemplate media="t/0_7f35ec/t0/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="69069"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <!-- Felix test -->
+    <AdaptationSet id="44" segmentAlignment="true" lang="en-US" contentType="text">
+      <Label>en-US Forced</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="forced-subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="31" id="t44">
+        <SegmentTemplate media="t/0_7f35ec/t0/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="69069"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="49" segmentAlignment="true" lang="es-ES" contentType="text">
+      <Label>es-ES Forced</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="forced-subtitle"></Role>
+      <Representation mimeType="text/vtt" bandwidth="31" id="t54">
+        <SegmentTemplate media="t/0_7f35ec/t0/$Number$.vtt" startNumber="1" timescale="1000">
+          <SegmentTimeline>
+            <S t="0" d="69069"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
