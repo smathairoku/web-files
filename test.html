@@ -45,11 +45,22 @@ document.getElementById("Nielsen").innerHTML = "Enabling Nielsen DAR...";
 ads.enableNielsenDAR(true);
 
 console.log("Enabling Ad Meassurements...");
+document.getElementById("Nielsen").innerHTML = "Enabling Ad Measurements...";
+
 ads.enableAdMeasurements(true);
+
+console.log("Fire Marketing Pixel...");
+document.getElementById("Nielsen").innerHTML = "Fire Marketing Pixel...";
+  
 ads.fireMarketingPixel("TestingMarketingPixel");
+
+console.log("Fire Tracking Event...");
+document.getElementById("Nielsen").innerHTML = "Fire Tracking Event...";
+
 ads.fireTrackingEvent("TestingTrackingEvent","https://www.cnn.com");
 
 console.log("GetNielsenContentData...");
+document.getElementById("Nielsen").innerHTML = "GetNielsenContentData API called...";
 ads.getNielsenContentData().then(success, failure);
 
 console.log("Setting content...");
