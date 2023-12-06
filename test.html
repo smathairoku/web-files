@@ -26,14 +26,25 @@ Playing with RokuAds API... 1.07
 //void setNielsenGenre(DOMString genre);
 
   const impressionUrl="https://ravm.tv/ads?version=1.0&inv_type=sb&sz=1920x1080&ssai_req=0&ip=OTT_IP&coppa=ROKU_ADS_KIDS_CONTENT&min_ad_duration=0&max_ad_duration=60000&is_raf=1&is_roku=1&rdid=ROKU_ADS_TRACKING_ID&ottid=OTT_ADS_TRACKING_ID&is_lat=OTT_ADS_LIMIT_TRACKING&is_roku_lat=ROKU_ADS_LIMIT_TRACKING&idtype=OTT_ID_TYPE&correlator=OTT_ADS_TIMESTAMP&scor=OTT_ADS_TIMESTAMP&pod=POD_NUM&ppos=POD_POSITION&ad_vertical=OTT_AD_VERTICAL&ad_roll=AD_ROLL&genre=OTT_CONTENT_GENRE&content=OTT_CONTENT_ID&length=OTT_CONTENT_LENGTH&device=OTT_DEVICE_MODEL&ua=OTT_USER_AGENT&ai=ROKU_ADS_APP_ID&ott_app_id=OTT_ADS_APP_ID&fb_url=&rtid=KuvCkUmK1BYrGmU9g3i5&roku_cust_param=spotify_beacon_test"
+  const errorImpressionUrl="https://ad.doubleclick.net/ddm/trackimp/N464817.3053065HOMETEAMSPORTS/B28549419.345444233;dc_trk_aid=543118198;dc_trk_cid=181790813;kw={DCO_VERSION_ID};ord=1698781073029;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd="
   const rokuTrackingEventType="Impression"
   const RokuTrackingCtx = { type: rokuTrackingEventType };
 
-  const RokuAdStructure = {
+  const RokuAdStructureGood = {
     tracking: [
       {
         event: rokuTrackingEventType,
         url: impressionUrl,
+        triggered: true,
+      },
+    ],
+    adServer: 'invalid',
+  };
+  const RokuAdStructureFail = {
+    tracking: [
+      {
+        event: rokuTrackingEventType,
+        url: errorImpressionUrl,
         triggered: true,
       },
     ],
@@ -71,7 +82,8 @@ ads.fireMarketingPixel("TestingMarketingPixel");
 console.log("Fire Tracking Event...");
 document.getElementById("Nielsen").innerHTML = "Fire Tracking Event...";
 
-ads.fireTrackingEvents(RokuAdStructure, RokuTrackingCtx);
+ads.fireTrackingEvents(RokuAdStructureGood, RokuTrackingCtx);
+ads.fireTrackingEvents(RokuAdStructureFail, RokuTrackingCtx);
 
 console.log("GetNielsenContentData...");
 document.getElementById("Nielsen").innerHTML = "GetNielsenContentData API called...";
